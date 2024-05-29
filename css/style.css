@@ -26,6 +26,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.fa-solid{
+  display: flex;
+  float: left;
+}
 
 :root {
     /* background-color: ; */
