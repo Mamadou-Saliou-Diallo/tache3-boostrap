@@ -29,7 +29,16 @@ h3{
 
 /* About */
 
+.about_wrapper ul .nav-pills{
+    width: 61%;
+    height: auto;
+
+}
+
 /* portfolio */
+.Portfolio_wrapper .card{
+    min-height: 400px;
+}
 
 
 
@@ -51,7 +60,18 @@ h3{
     }
 
     /* About */
+    .about_wrapper ul .nav-pills{
+        width: 100%;
+        height: auto;
+        border: 0;
+    }
+    .about_wrapper ul li .nav-link{
+        font-size: 13px;
+    }
 
     /* portfolio */
+    .Portfolio_wrapper .card{
+        min-height: 500px;
+    }
     
  }
